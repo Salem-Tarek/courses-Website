@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="grid.css">
+    <title>CoursesSpot</title>
+  </head>
+  <body>
+    <!-- Start Navbar -->
+    <div class="navbar-menu" id="test">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg bg">
+          <a class="navbar-brand" href="#">Course<span>Spot</span></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav custom-nav text-uppercase ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Courses
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">English</a>
+                  <a class="dropdown-item" href="#">Design</a>
+                  <a class="dropdown-item" href="#">Computer SCiene</a>
+                  <a class="dropdown-item" href="#">Cooking</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="register.html">register</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- End Navbar -->
+
+    <!-- Start Slider -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="imgs/coach_hero_1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="imgs/coach_hero_2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="imgs/coach_hero_3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <i class="fa fa-chevron-left"></i>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <i class="fa fa-chevron-right"></i>
+      </a>
+    </div>
+    <!-- End Slider -->
+
+    <!-- Start About Us -->
+    <div class="about-us">
+      <div class="container-fluid">
+        <h2 class="text-center text-uppercase h1">About Us</h2>
+        <div class="boxes">
+          <div class="box">
+            <img class="img-fluid" src="imgs/coach_hero_2.jpg" alt="">
+          </div>
+          <div class="box">
+            <h3>Who Are We ?</h3>
+            <p class="lead">We Are center of Courses in All Fields of Life like: Design , languages , Cooking , Computer Science ...etc</p>
+            <h3>How To Join Us ?</h3>
+            <p class="lead">You Can Join Us Just By Fill The Form Below The Page and Enjoy The Courses With The Best Teachers and instructors in all fields</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End About Us -->
+
+    <!-- Start Last Uploaded Courses -->
+    <div class="most-visited text-center">
+      <h2 class="h1 text-uppercase">Most Visited Courses</h2>
+      <a class="btn btn-info all-courses btn-large" href="courses.html">All Courses</a>
+
+      <div class="courses">
+
+        <div class="cards">
+          <div class="card">
+            <img src="imgs/Inspirational Pencils.jpg" class="card-img-top " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Drawing</h5>
+              <p class="card-text"><span>Adham Basha</span> / <small class="text-muted">Last updated 3 mins ago</small></p>
+              <span>Free</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cards">
+          <div class="card">
+            <img src="imgs/Inspirational Pencils.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Programming</h5>
+              <p class="card-text"><span>Adham Basha</span> / <small class="text-muted">Last updated 3 mins ago</small></p>
+              <span>50$</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cards">
+          <div class="card">
+            <img src="imgs/Inspirational Pencils.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cooking</h5>
+              <p class="card-text"><span>Adham Basha</span> / <small class="text-muted">Last updated 3 mins ago</small></p>
+              <span>50$</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="cards">
+          <div class="card">
+            <img src="imgs/Inspirational Pencils.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Languages</h5>
+              <p class="card-text"><span>Adham Basha</span> / <small class="text-muted">Last updated 3 mins ago</small></p>
+              <span>100$</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="animate-more-courses">
+
+        <div class="more-courses">
+
+          <div class="cards">
+            <div class="card">
+              <img src="imgs/Inspirational Pencils.jpg" class="card-img-top " alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Drawing</h5>
+                <p class="card-text"><span>Adham Basha</span> / <small class="text-muted">Last updated 3 mins ago</small></p>
+                <span>Free</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="cards">
+            <div class="card">
+              <img src="imgs/Inspirational Pencils.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Languages</h5>
+                <p class="card-text"><span>Adham Basha</span> / <small class="text-muted">Last updated 3 mins ago</small></p>
+                <span>50$</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="cards">
+            <div class="card">
+              <img src="imgs/Inspirational Pencils.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Cooking</h5>
+                <p class="card-text"><span>Adham Basha</span> / <small class="text-muted">Last updated 3 mins ago</small></p>
+                <span>50$</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="cards">
+            <div class="card">
+              <img src="imgs/Inspirational Pencils.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Programming</h5>
+                <p class="card-text"><span>Adham Basha</span> / <small class="text-muted">Last updated 3 mins ago</small></p>
+                <span>100$</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="cards">
+            <div class="card">
+              <img src="imgs/Inspirational Pencils.jpg" class="card-img-top " alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Drawing</h5>
+                <p class="card-text"><span>Adham Basha</span> / <small class="text-muted">Last updated 3 mins ago</small></p>
+                <span>Free</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="cards">
+            <div class="card">
+              <img src="imgs/Inspirational Pencils.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Languages</h5>
+                <p class="card-text"><span>Adham Basha</span> / <small class="text-muted">Last updated 3 mins ago</small></p>
+                <span>50$</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="cards">
+            <div class="card">
+              <img src="imgs/Inspirational Pencils.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Programming</h5>
+                <p class="card-text"><span>Adham Basha</span> / <small class="text-muted">Last updated 3 mins ago</small></p>
+                <span>100$</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="cards">
+            <div class="card">
+              <img src="imgs/Inspirational Pencils.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Cooking</h5>
+                <p class="card-text"><span>Adham Basha</span> / <small class="text-muted">Last updated 3 mins ago</small></p>
+                <span>50$</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <button class="show-more btn btn-danger mx-auto">Show More</button>
+
+      </div>
+    <!-- End Last Uploaded Courses -->
+
+    <!-- Start Our Instructors -->
+    <div class="instructors">
+      <div class="container">
+        <div class="cards">
+          <div class="card">
+            <a href="#">
+              <img src="imgs/Inspirational Pencils.jpg" class="card-img-top">
+            </a>
+            <div class="card-body text-center">
+              <h5 class="card-title text-uppercase">Khaled</h5>
+              <p class="card-text">Science Instructor</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <a href="#">
+              <img src="imgs/Inspirational Pencils.jpg" class="card-img-top">
+            </a>
+            <div class="card-body text-center">
+              <h5 class="card-title text-uppercase">Salem</h5>
+              <p class="card-text">Programmer Instructor</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <a href="#">
+              <img src="imgs/Inspirational Pencils.jpg" class="card-img-top ">
+            </a>
+            <div class="card-body text-center">
+              <h5 class="card-title text-uppercase">Shimaa</h5>
+              <p class="card-text">Drawing Instructor</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <a href="#">
+              <img src="imgs/Inspirational Pencils.jpg" class="card-img-top ">
+            </a>
+            <div class="card-body text-center">
+              <h5 class="card-title text-uppercase">Salma</h5>
+              <p class="card-text">Pharmacy Instructor</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Our Instructors -->
+
+    <!-- Start Contact Form -->
+    <div class="contact">
+      <h2 class="h1 text-center text-uppercase">Contact Us</h2>
+      <div class="boxes">
+        <div class="box">
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Type Your Name" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Type Your Email" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Type Your Subject" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" placeholder="Type Your Message To Us"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="box">
+          <h3>Follow Us</h3>
+          <ul class="list-unstyled">
+            <li><a href="#"><i class="facebook fa fa-facebook fa-2x"></i></a></li>
+            <li><a href="#"><i class="twitter fa fa-twitter fa-2x"></i></a></li>
+            <li><a href="#"><i class="instagram fa fa-instagram fa-2x"></i></a></li>
+            <li><a href="#"><i class="youtube fa fa-youtube fa-2x"></i></a></li>
+          </ul>
+          <h4><i class="fa fa-whatsapp fa-2x"></i> <span> 01093967431</span></h4>
+        </div>
+      </div>
+    </div>
+    <!-- End Contact Form -->
+
+    <!-- Start CopyRight Section -->
+    <div class="copyright">
+      <p class="lead text-center">&copy;Copyright 2020 CoursesSpot.com Designed By <span>Salem Tarek</span></p>
+    </div>
+    <!-- End CopyRight Section -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="main.js"></script>
+  </body>
+</html>
